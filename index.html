@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+    <title>Evento onclick</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="menu-arriba">
+            <h1>Dojonary</h1>
+            <input id="search" type="text" placeholder="Search">
+            <button onclick="loginClick(this)" id="login">Login</button>
+        </div>
+
+        <div class="cuadro-izq">
+            <div class="subcontainer">
+                <div class="first-container">
+                    <p class="ninja">ninja</p>
+                    <p class="noun">noun</p>
+                    <div class="plural-container">
+                        <p>Plural: <em>ninjas</em></p>
+                    </div>
+                    <button onclick="alert('Ninja was liked')" class="like">13 likes</button>
+                </div>
+            </div>
+            <div class="definition-container">
+                <p>A practitioner skilled in the </p>
+                <a class="link" href=""> Japanese</a>
+                <p>art of</p>
+                <a class="link" href=""> ninjutsu</a>
+            </div>
+        </div>
+
+        <div class="cuadro-izq">
+            <div class="subcontainer">
+                <div class="first-container">
+                    <p class="ninja">ninja</p>
+                    <p class="noun">noun</p>
+                    <div class="plural-container">
+                        <p>Plural: <em>ninjas</em></p>
+                    </div>
+                    <button onclick="alert('Ninja was liked')" class="like">37 likes</button>
+                </div>
+            </div>
+            <div class="definition-container">
+                <p>A </p>
+                <a class="link" href=""> programmer</a>
+                <p>who breaks down problems with </p>
+                <a class="link" href=""> zen</a>
+                <p>-like focus</p>
+            </div>
+        </div>
+
+
+        <div class="cuadro-der">
+            <p>Dojonary is defined by <strong>YOU</strong></p>
+            <button onclick="addDefinitionClick(this)" id="definition">Add Definition</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

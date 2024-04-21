@@ -1,0 +1,106 @@
+#container {
+    font-family: cursive;
+    position: relative;
+    width: 850px;
+    justify-content: center;
+    left: 190px
+}
+
+/*Menu arriba*/
+#menu-arriba {
+    display: flex;
+    background-color: rgb(204, 204, 204);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#search {
+    width: 300px;
+    height: 30px;
+}
+
+#login {
+    background-color: rgb(43, 120, 229);
+    color: white
+}
+
+/*cuadro izquierda*/
+.cuadro-izq {
+    margin-top: 30px;
+    display: flex;
+    border: solid;
+    width: 500px;
+    height: 200px;
+    padding-right: 20px;
+}
+
+.subcontainer {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.definition-container {
+    width: 250px;
+    display: flex;
+    align-items: center;
+
+}
+
+.noun {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 55px;
+    font-size: large;
+}
+
+.plural-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 80px;
+}
+
+.ninja {
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+
+.link {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.like {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 75px;
+    background-color: rgb(254, 216, 102);
+}
+
+/*cuadro derecho*/
+.cuadro-der {
+    width: 273px;
+    border: solid;
+    position: relative;
+    left: 570px;
+    bottom: 442px;
+}
+
+
+#you {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#definition {
+    position: relative;
+    left: 80px;
+    bottom: 5px;
+    background-color: rgb(146, 196, 125);
+}
